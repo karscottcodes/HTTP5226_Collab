@@ -25,6 +25,12 @@ namespace HTTP5226_Collab.Models
         {
         }
 
+        // Add Department Entity
+        public DbSet<Department> Departments { get; set; }
+
+        // Add Team Entity
+        public DbSet<Team> Teams { get; set; }
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
