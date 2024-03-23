@@ -31,6 +31,12 @@ namespace HTTP5226_Collab.Models
         // Add Team Entity
         public DbSet<Team> Teams { get; set; }
 
+        // Add Employee Entity
+        public DbSet<Employee> Employees { get; set; }
+
+        // Add Assignment Entity
+        public DbSet<Assignment> Assignments { get; set; }
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();

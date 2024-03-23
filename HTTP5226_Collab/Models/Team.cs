@@ -14,7 +14,7 @@ namespace HTTP5226_Collab.Models
         public string TeamName {  get; set; }
 
         //Many Employees Associated With A Team
-        //public virtual ICollection<Employee> Employees { get; set: }
+        public virtual ICollection<Employee> Employees { get; set; }
 
         //A Team Is Associated With One Department
         [ForeignKey("DepartmentId")]

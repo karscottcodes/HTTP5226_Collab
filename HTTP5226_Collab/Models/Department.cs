@@ -14,7 +14,7 @@ namespace HTTP5226_Collab.Models
         public string DepartmentName {  get; set; }
 
         //A Department Can Be Associated With Many Teams
-        //public ICollection<Team> Teams { get; set; }
+        public ICollection<Team> Teams { get; set; }
     }
 
     public class DepartmentDto
