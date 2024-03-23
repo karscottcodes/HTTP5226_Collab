@@ -127,3 +127,5 @@ C:\Users\Owner\Desktop\Collab\HTTP5226_Collab\obj\Debug\HTTP5226_Collab.Migratio
 C:\Users\Owner\Desktop\Collab\HTTP5226_Collab\obj\Debug\HTTP5226_Collab.csproj.GenerateResource.cache
 C:\Users\Owner\Desktop\Collab\HTTP5226_Collab\obj\Debug\HTTP5226_Collab.Migrations.Department.resources
 C:\Users\Owner\Desktop\Collab\HTTP5226_Collab\obj\Debug\HTTP5226_Collab.Migrations.Team.resources
+C:\Users\Owner\Desktop\Collab\HTTP5226_Collab\obj\Debug\HTTP5226_Collab.Migrations.Employees.resources
+C:\Users\Owner\Desktop\Collab\HTTP5226_Collab\obj\Debug\HTTP5226_Collab.Migrations.Assignment.resources

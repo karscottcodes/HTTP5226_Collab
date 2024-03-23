@@ -212,8 +212,17 @@
     <Compile Include="Migrations\202403201950461_Team.Designer.cs">
       <DependentUpon>202403201950461_Team.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202403230002065_Employees.cs" />
+    <Compile Include="Migrations\202403230002065_Employees.Designer.cs">
+      <DependentUpon>202403230002065_Employees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202403230014077_Assignment.cs" />
+    <Compile Include="Migrations\202403230014077_Assignment.Designer.cs">
+      <DependentUpon>202403230014077_Assignment.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Assignment.cs" />
     <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -333,6 +342,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202403201950461_Team.resx">
       <DependentUpon>202403201950461_Team.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202403230002065_Employees.resx">
+      <DependentUpon>202403230002065_Employees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202403230014077_Assignment.resx">
+      <DependentUpon>202403230014077_Assignment.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
